@@ -30,6 +30,24 @@ namespace EmpMangement.Models
         {
             return _employeeContext.Employees.ToList();
         }
+
+
+        public void Update(Employee employee, Employee entity)
+        {
+            employee.Name = entity.Name;
+            employee.Email = entity.Email;
+            employee.Department = entity.Department;
+
+            _employeeContext.SaveChanges();
+        }
+
+        public void Delete(Employee employee)
+        {
+            _employeeContext.Employees.Remove(employee);
+            _employeeContext.SaveChanges();
+        }
+
+
     }
 
 

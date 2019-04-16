@@ -58,6 +58,39 @@ namespace EmpMangement.Controllers
                   employee);
         }
 
+        // PUT: api/Employee/5
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Employee employee)
+        {
+            if (employee == null)
+            {
+                return BadRequest("Employee is null.");
+            }
+
+            Employee employeeToUpdate = _employeeRepository.GetEmployee(id);
+            if (employeeToUpdate == null)
+            {
+                return NotFound("The Employee record couldn't be found.");
+            }
+
+            _employeeRepository.Update(employeeToUpdate, employee);
+            return NoContent();
+        }
+
+        // DELETE: api/Employee/5
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            Employee employee = _employeeRepository.GetEmployee(id);
+            if (employee == null)
+            {
+                return NotFound("The Employee record couldn't be found.");
+            }
+
+            _employeeRepository.Delete(employee);
+            return NoContent();
+        }
+
 
         public JsonResult Index(int id)
         {

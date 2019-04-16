@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{6545ECF9-5614-43B1-8F2E-2A334B11F32F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmpMangement/Models/MockEmployeeRepository.cs">
+    <Files>
+      <File FileName="EmpMangement/Models/IEmployeeRepository.cs" Line="12" Column="17" />
+      <File FileName="EmpMangement/Models/MockEmployeeRepository.cs" Line="35" Column="63" />
+      <File FileName="EmpMangement/Controllers/HomeController.cs" Line="90" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="EmpMangement" expanded="True">
+            <Node name="EmpMangement" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="MockEmployeeRepository.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.EmpMangement PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="/Users/kkm/Empmanagement/EmpMangement/Models/IEmployeeRepository.cs" relfile="EmpMangement/Models/IEmployeeRepository.cs" line="12" column="17" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

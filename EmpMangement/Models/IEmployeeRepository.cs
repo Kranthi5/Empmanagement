@@ -8,7 +8,7 @@ namespace EmpMangement.Models
          IEnumerable<Employee> GetAll();
         Employee GetEmployee(int Id);
         void Add(Employee entity);
-        //void Update(Employee employee, Employee entity);
-       // void Delete(Employee Id);
+        void Update(Employee employee, Employee entity);
+        void Delete(Employee Id);
     }
 }
