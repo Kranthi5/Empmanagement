@@ -6,6 +6,7 @@ namespace EmpMangement.Models
 {
     public class Employee
     {
+        //This is a Employee object
         public Employee()
         {
         }
